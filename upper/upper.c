@@ -8,22 +8,25 @@ case characters the same, and prints the result.  It uses the ternary operator.
 /*
 Instructor Hints (You may delete this when submitting)
 
-This is modified code presented from "The C Programming Language" to convert
-upper-case characters to lowercase.
+Here is some code which converts a lower-case charater to upper-case, and leaves all other characters the same.
 
-char upperCase = 'D';
-char lowerCase;
-if (c >= 'A' && c <= 'Z')
-    lowerCase = upperCase + 'a' - 'A';
+char character = 'd';
+char upperCase;
+if (character >= 'a' && character <= 'z')
+    upperCase = character + ('A' - 'a');
 else
-    lowerCase = upperCase;
+    upperCase = character;
+    
+In english, this reads as "If the character variable is a lower-case character, 
+set the upperCase variable to (lowerCase - 'a' - 'A') otherwise set it to (character)"
 
-We haven't learned if/else statements yet so you should do this using the
-ternary operator.
+We haven't learned if/else statements yet so you must do this using the ternary operator.
 */
 
 #include <stdio.h> /* printf */
 
 int main () {
-    char lowerCase = 'd';
+    char character = 'd';
+    char upperCase;
+    printf("%c\n", upperCase);
 }
