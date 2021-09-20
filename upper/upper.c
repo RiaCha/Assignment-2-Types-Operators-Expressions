@@ -18,7 +18,7 @@ else
     upperCase = character;
     
 In english, this reads as "If the character variable is a lower-case character, 
-set the upperCase variable to (lowerCase - 'a' - 'A') otherwise set it to (character)"
+set the upperCase variable to (character + ('A' - 'a')) otherwise set it to (character)"
 
 We haven't learned if/else statements yet so you must do this using the ternary operator.
 */
