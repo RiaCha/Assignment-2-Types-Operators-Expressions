@@ -32,4 +32,8 @@ int main () {
     int a = -1;
     int b = 1;
     int c = 1;
+    float root1;
+    float root2;
+    printf("%f\n", root1);
+    printf("%f\n", root2);
 }
