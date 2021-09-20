@@ -4,7 +4,7 @@ Name:
 This program solves a quadratic equation of the form ax^2 + bx + c = 0
 a, b, and c are already given as integers, and we assume a real solution
 is possible.  Both solutions are stored in variables root1 and root2, and
-both roots are printed on new lines (the smaller root is printed first)
+both roots are printed on new lines (the minimum root is printed first)
 */
 
 /*
