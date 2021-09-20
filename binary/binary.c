@@ -21,4 +21,6 @@ one case where the bitwise operators are easier to read.
 
 int main () {
     char c = 'A';
+    int bit0, bit1, bit2, bit3, bit4, bit5, bit6, bit7;
+    printf("%d%d%d%d%d%d%d%d\n", bit7, bit6, bit5, bit4, bit3, bit2, bit1, bit0);
 }
