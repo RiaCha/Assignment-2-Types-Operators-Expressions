@@ -19,4 +19,6 @@ The general formula for for temperature in celsius is (F − 32) * 5/9 = 0
 
 int main () {
     int FahrenheitTemperature = 65;
+    float CelsiusTemperature;
+    printf("%.2f\n", CelsiusTemperature);
 }
