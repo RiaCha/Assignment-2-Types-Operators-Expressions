@@ -11,17 +11,16 @@ This program checks the following:
 * -1 equals 0xffff?
 * -1 equals 0xffffffff?
 * -1 equals 0xffffffffU?
-
 * -1 greater than 1U?
 
-Print the question (copied from above) and the answer as a 0 or 1
+Print the question and the answer as a 0 or 1 (examples for the first 3 are shown below)
 
 */
 
 #include <stdio.h> /* printf */
 
 int main () {
-    printf("5 == 5: %d\n", 5 == 5);
+    printf("10 == 10: %d\n", 10 == 10);
     printf("8 == 010: %d\n", 8 == 010);
     printf("16 == 0x10: %d\n", 16 == 0x10);
 }
